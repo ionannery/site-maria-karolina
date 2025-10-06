@@ -50,21 +50,16 @@ const Index = () => {
                   <div className="text-3xl font-bold text-primary">98%</div>
                   <div className="text-sm text-muted-foreground">Taxa de aprovação</div>
                 </div>
-                  <img 
-                    src={fotoMkMaoCruzada}
-                    alt="Dra. Maria Karolina Carvalho - Advogada Especialista"
-                    className="w-full h-auto"
-                  />
               </div>
             </div>
             
             <div className="relative">
               <div className="relative rounded-3xl overflow-hidden shadow-medium">
                 <img 
-                  src="https://mariakarolina.adv.br/assets/foto-02-BGLJqir5.jpg"
-                  alt="Dra. Maria Karolina Carvalho - Advogada Especialista"
-                  className="w-full h-auto"
-                />
+                    src={fotoMkMaoCruzada}
+                    alt="Dra. Maria Karolina Carvalho - Advogada Especialista"
+                    className="w-full h-auto"
+                  />
               </div>
             </div>
           </div>
