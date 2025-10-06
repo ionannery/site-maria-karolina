@@ -30,10 +30,10 @@ const SalarioMaternidade = () => {
         
         <div className="relative container mx-auto px-4 py-24 md:py-32">
           <div className="max-w-4xl mx-auto text-center space-y-6">
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white leading-tight">
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 leading-tight">
               Seu amor merece um recomeço tranquilo. Garanta o seu salário-maternidade com a ajuda certa.
             </h1>
-            <p className="text-xl md:text-2xl text-white/95 leading-relaxed">
+            <p className="text-xl md:text-2xl text-gray-900 leading-relaxed">
               Com apenas uma contribuição ao INSS, você pode ter direito ao salário-maternidade. A advogada Maria Karolina já ajudou mais de 200 mamães a conquistarem esse benefício em todo o Brasil.
             </p>
             <Button 
