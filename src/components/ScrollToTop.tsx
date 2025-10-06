@@ -5,17 +5,19 @@ const ScrollToTop = () => {
   const { pathname } = useLocation();
 
   useEffect(() => {
-    // Força scroll imediato
-    window.scrollTo({
-      top: 0,
-      left: 0,
-      behavior: 'instant'
-    });
-    
-    // Backup para garantir
-    setTimeout(() => {
+    // Múltiplas tentativas para garantir o scroll
+    const scrollToTopInstant = () => {
+      document.documentElement.scrollTop = 0;
+      document.body.scrollTop = 0;
       window.scrollTo(0, 0);
-    }, 0);
+    };
+
+    scrollToTopInstant();
+    
+    // Tenta novamente após um pequeno delay
+    setTimeout(scrollToTopInstant, 10);
+    setTimeout(scrollToTopInstant, 50);
+    setTimeout(scrollToTopInstant, 100);
   }, [pathname]);
 
   return null;
