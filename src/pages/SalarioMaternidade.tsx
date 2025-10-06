@@ -25,7 +25,7 @@ const SalarioMaternidade = () => {
             alt="Mãe e bebê"
             className="w-full h-full object-cover opacity-20"
           />
-          <div className="absolute inset-0 bg-gradient-beige opacity-80"></div>
+          <div className="absolute inset-0 bg-gradient-beige opacity-60"></div>
         </div>
         
         <div className="relative container mx-auto px-4 py-24 md:py-32">
