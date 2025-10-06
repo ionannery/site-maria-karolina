@@ -10,7 +10,7 @@ import gestante from "@/assets/gestante.jpg";
 
 const SalarioMaternidade = () => {
   const handleCTAClick = () => {
-    window.open('https://wa.me/558695600304?text=Olá, Dra. Maria Karolina! 😊 Acessei sua página sobre o salário-maternidade e quero saber se tenho direito ao benefício. Pode me ajudar?', '_blank');
+    window.open('https://wa.me/558695600304?text=Olá, Dra. Maria Karolina! Acessei sua página sobre o salário-maternidade e quero saber se tenho direito ao benefício. Pode me ajudar?', '_blank');
   };
 
   return (
