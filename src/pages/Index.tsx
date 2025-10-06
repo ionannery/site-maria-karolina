@@ -131,7 +131,7 @@ const Index = () => {
             <ul className="space-y-4">
               <li className="flex items-start gap-3">
                 <CheckCircle className="h-6 w-6 text-primary flex-shrink-0 mt-0.5" />
-                <span>Advogada especializada em direito previdenciário</span>
+                <span>Advogada especializada em direito previdenciário e trabalhista</span>
               </li>
               <li className="flex items-start gap-3">
                 <CheckCircle className="h-6 w-6 text-primary flex-shrink-0 mt-0.5" />
