@@ -10,7 +10,7 @@ import gestante from "@/assets/gestante.jpg";
 
 const SalarioMaternidade = () => {
   const handleCTAClick = () => {
-    window.open('https://wa.me/5511999999999?text=Olá! Gostaria de saber se tenho direito ao salário-maternidade', '_blank');
+    window.open('https://wa.me/558695600304?text=Olá, Dra. Maria Karolina! 😊 Acessei sua página sobre o salário-maternidade e quero saber se tenho direito ao benefício. Pode me ajudar?', '_blank');
   };
 
   return (
@@ -25,7 +25,7 @@ const SalarioMaternidade = () => {
             alt="Mãe e bebê"
             className="w-full h-full object-cover opacity-20"
           />
-          <div className="absolute inset-0 bg-gradient-maternal opacity-80"></div>
+          <div className="absolute inset-0 bg-gradient-beige opacity-80"></div>
         </div>
         
         <div className="relative container mx-auto px-4 py-24 md:py-32">
@@ -38,7 +38,7 @@ const SalarioMaternidade = () => {
             </p>
             <Button 
               size="lg" 
-              className="bg-white text-primary hover:bg-white/90 shadow-medium text-lg px-10 py-6 h-auto"
+              className="bg-brown hover:bg-brown-dark shadow-medium text-lg px-10 py-6 h-auto text-white"
               onClick={handleCTAClick}
             >
               <Heart className="mr-2 h-5 w-5" />
@@ -60,9 +60,9 @@ const SalarioMaternidade = () => {
                   className="w-full h-auto"
                 />
               </div>
-              <div className="absolute -bottom-6 -right-6 bg-secondary rounded-2xl p-6 shadow-soft max-w-xs">
-                <div className="text-3xl font-bold text-secondary-foreground">200+</div>
-                <div className="text-sm text-secondary-foreground/80">Mamães ajudadas</div>
+              <div className="absolute -bottom-6 -right-6 bg-brown rounded-2xl p-6 shadow-soft max-w-xs">
+                <div className="text-3xl font-bold text-white">200+</div>
+                <div className="text-sm text-white/90">Mamães ajudadas</div>
               </div>
             </div>
             
@@ -83,7 +83,7 @@ const SalarioMaternidade = () => {
                 </p>
               </div>
               
-              <blockquote className="border-l-4 border-secondary pl-6 italic text-lg">
+              <blockquote className="border-l-4 border-brown pl-6 italic text-lg">
                 "Eu sei o quanto esse momento é importante. Por isso, ajudo mamães como você a receberem 
                 o que é delas por direito — com segurança, carinho e agilidade."
                 <footer className="mt-2 text-sm font-medium text-foreground not-italic">
@@ -109,8 +109,8 @@ const SalarioMaternidade = () => {
           
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
             <Card className="p-8 text-center border-none shadow-soft hover:shadow-medium transition-all hover:-translate-y-1">
-              <div className="bg-secondary/20 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
-                <CheckCircle className="h-8 w-8 text-secondary-foreground" />
+              <div className="bg-beige rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
+                <CheckCircle className="h-8 w-8 text-brown" />
               </div>
               <h3 className="font-semibold text-xl mb-3">Evite erros que podem atrasar o benefício</h3>
               <p className="text-muted-foreground">
@@ -120,8 +120,8 @@ const SalarioMaternidade = () => {
             </Card>
             
             <Card className="p-8 text-center border-none shadow-soft hover:shadow-medium transition-all hover:-translate-y-1">
-              <div className="bg-accent/20 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
-                <Shield className="h-8 w-8 text-accent-foreground" />
+              <div className="bg-beige rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
+                <Shield className="h-8 w-8 text-brown" />
               </div>
               <h3 className="font-semibold text-xl mb-3">Receba orientação especializada do início ao fim</h3>
               <p className="text-muted-foreground">
@@ -131,8 +131,8 @@ const SalarioMaternidade = () => {
             </Card>
             
             <Card className="p-8 text-center border-none shadow-soft hover:shadow-medium transition-all hover:-translate-y-1 md:col-span-2 lg:col-span-1">
-              <div className="bg-primary/20 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
-                <Star className="h-8 w-8 text-primary" />
+              <div className="bg-beige rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
+                <Star className="h-8 w-8 text-brown" />
               </div>
               <h3 className="font-semibold text-xl mb-3">Aumente as chances de aprovação</h3>
               <p className="text-muted-foreground">
@@ -162,11 +162,11 @@ const SalarioMaternidade = () => {
             </div>
             
             <div className="space-y-6">
-              <Card className="p-8 border-l-4 border-destructive">
+              <Card className="p-8 border-l-4 border-brown">
                 <div className="flex gap-4">
                   <div className="flex-shrink-0">
-                    <div className="w-12 h-12 rounded-full bg-destructive/10 flex items-center justify-center">
-                      <span className="text-xl font-bold text-destructive">❌</span>
+                    <div className="w-12 h-12 rounded-full bg-brown/10 flex items-center justify-center">
+                      <span className="text-xl font-bold text-brown">❌</span>
                     </div>
                   </div>
                   <div>
@@ -179,11 +179,11 @@ const SalarioMaternidade = () => {
                 </div>
               </Card>
               
-              <Card className="p-8 border-l-4 border-destructive">
+              <Card className="p-8 border-l-4 border-brown">
                 <div className="flex gap-4">
                   <div className="flex-shrink-0">
-                    <div className="w-12 h-12 rounded-full bg-destructive/10 flex items-center justify-center">
-                      <span className="text-xl font-bold text-destructive">❌</span>
+                    <div className="w-12 h-12 rounded-full bg-brown/10 flex items-center justify-center">
+                      <span className="text-xl font-bold text-brown">❌</span>
                     </div>
                   </div>
                   <div>
@@ -196,11 +196,11 @@ const SalarioMaternidade = () => {
                 </div>
               </Card>
               
-              <Card className="p-8 border-l-4 border-destructive">
+              <Card className="p-8 border-l-4 border-brown">
                 <div className="flex gap-4">
                   <div className="flex-shrink-0">
-                    <div className="w-12 h-12 rounded-full bg-destructive/10 flex items-center justify-center">
-                      <span className="text-xl font-bold text-destructive">❌</span>
+                    <div className="w-12 h-12 rounded-full bg-brown/10 flex items-center justify-center">
+                      <span className="text-xl font-bold text-brown">❌</span>
                     </div>
                   </div>
                   <div>
@@ -233,7 +233,7 @@ const SalarioMaternidade = () => {
             <Card className="p-8 border-none shadow-soft">
               <div className="flex gap-1 mb-4">
                 {[...Array(5)].map((_, i) => (
-                  <Star key={i} className="h-5 w-5 fill-primary text-primary" />
+                  <Star key={i} className="h-5 w-5 fill-brown text-brown" />
                 ))}
               </div>
               <p className="text-muted-foreground mb-4 italic">
@@ -241,7 +241,7 @@ const SalarioMaternidade = () => {
                 Em poucas semanas, recebi meu benefício!"
               </p>
               <div className="flex items-center gap-3">
-                <div className="w-12 h-12 rounded-full bg-secondary flex items-center justify-center text-secondary-foreground font-semibold">
+                <div className="w-12 h-12 rounded-full bg-brown flex items-center justify-center text-white font-semibold">
                   JR
                 </div>
                 <div>
@@ -254,7 +254,7 @@ const SalarioMaternidade = () => {
             <Card className="p-8 border-none shadow-soft">
               <div className="flex gap-1 mb-4">
                 {[...Array(5)].map((_, i) => (
-                  <Star key={i} className="h-5 w-5 fill-primary text-primary" />
+                  <Star key={i} className="h-5 w-5 fill-brown text-brown" />
                 ))}
               </div>
               <p className="text-muted-foreground mb-4 italic">
@@ -262,7 +262,7 @@ const SalarioMaternidade = () => {
                 rapidamente. Super recomendo!"
               </p>
               <div className="flex items-center gap-3">
-                <div className="w-12 h-12 rounded-full bg-accent flex items-center justify-center text-accent-foreground font-semibold">
+                <div className="w-12 h-12 rounded-full bg-brown flex items-center justify-center text-white font-semibold">
                   CS
                 </div>
                 <div>
@@ -275,7 +275,7 @@ const SalarioMaternidade = () => {
             <Card className="p-8 border-none shadow-soft md:col-span-2 lg:col-span-1">
               <div className="flex gap-1 mb-4">
                 {[...Array(5)].map((_, i) => (
-                  <Star key={i} className="h-5 w-5 fill-primary text-primary" />
+                  <Star key={i} className="h-5 w-5 fill-brown text-brown" />
                 ))}
               </div>
               <p className="text-muted-foreground mb-4 italic">
@@ -283,7 +283,7 @@ const SalarioMaternidade = () => {
                 e consegui meu salário-maternidade sem estresse!"
               </p>
               <div className="flex items-center gap-3">
-                <div className="w-12 h-12 rounded-full bg-primary flex items-center justify-center text-primary-foreground font-semibold">
+                <div className="w-12 h-12 rounded-full bg-brown flex items-center justify-center text-white font-semibold">
                   PM
                 </div>
                 <div>
@@ -304,16 +304,16 @@ const SalarioMaternidade = () => {
             alt="Mãe e bebê"
             className="w-full h-full object-cover opacity-10"
           />
-          <div className="absolute inset-0 bg-gradient-maternal"></div>
+          <div className="absolute inset-0 bg-gradient-beige"></div>
         </div>
         
         <div className="relative container mx-auto">
           <div className="max-w-3xl mx-auto text-center space-y-8">
-            <h2 className="text-4xl md:text-5xl font-bold text-white leading-tight">
+            <h2 className="text-4xl md:text-5xl font-bold leading-tight">
               Você cuidou do seu bebê. Agora deixe que a Dra. Maria cuide do seu direito.
             </h2>
             
-            <p className="text-xl text-white/95">
+            <p className="text-xl text-muted-foreground">
               Não deixe que a burocracia tire sua paz nesse momento tão especial. 
               Dê o primeiro passo agora e descubra como é simples garantir o que é seu por direito.
             </p>
@@ -321,7 +321,7 @@ const SalarioMaternidade = () => {
             <div className="flex flex-col sm:flex-row gap-4 justify-center pt-4">
               <Button 
                 size="lg" 
-                className="bg-white text-primary hover:bg-white/90 shadow-medium text-lg px-10 py-6 h-auto"
+                className="bg-brown hover:bg-brown-dark shadow-medium text-lg px-10 py-6 h-auto text-white"
                 onClick={handleCTAClick}
               >
                 <Heart className="mr-2 h-5 w-5" />
@@ -330,22 +330,22 @@ const SalarioMaternidade = () => {
             </div>
             
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6 pt-8">
-              <div className="bg-white/10 backdrop-blur-sm rounded-xl p-6 text-white">
-                <CheckCircle className="h-8 w-8 mx-auto mb-3" />
+              <div className="bg-white/90 backdrop-blur-sm rounded-xl p-6">
+                <CheckCircle className="h-8 w-8 mx-auto mb-3 text-brown" />
                 <h3 className="font-semibold mb-2">Avaliação Gratuita</h3>
-                <p className="text-sm text-white/80">Análise completa do seu caso sem custo</p>
+                <p className="text-sm text-muted-foreground">Análise completa do seu caso sem custo</p>
               </div>
               
-              <div className="bg-white/10 backdrop-blur-sm rounded-xl p-6 text-white">
-                <Shield className="h-8 w-8 mx-auto mb-3" />
+              <div className="bg-white/90 backdrop-blur-sm rounded-xl p-6">
+                <Shield className="h-8 w-8 mx-auto mb-3 text-brown" />
                 <h3 className="font-semibold mb-2">100% Seguro</h3>
-                <p className="text-sm text-white/80">Atendimento profissional e sigiloso</p>
+                <p className="text-sm text-muted-foreground">Atendimento profissional e sigiloso</p>
               </div>
               
-              <div className="bg-white/10 backdrop-blur-sm rounded-xl p-6 text-white">
-                <Star className="h-8 w-8 mx-auto mb-3" />
+              <div className="bg-white/90 backdrop-blur-sm rounded-xl p-6">
+                <Star className="h-8 w-8 mx-auto mb-3 text-brown" />
                 <h3 className="font-semibold mb-2">Sem Riscos</h3>
-                <p className="text-sm text-white/80">Pagamento apenas em caso de sucesso</p>
+                <p className="text-sm text-muted-foreground">Pagamento apenas em caso de sucesso</p>
               </div>
             </div>
           </div>

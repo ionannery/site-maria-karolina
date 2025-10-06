@@ -1,6 +1,7 @@
 import { Link, useLocation } from "react-router-dom";
 import { MessageCircle } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import logo from "@/assets/logo.png";
 
 const Header = () => {
   const location = useLocation();
@@ -9,11 +10,13 @@ const Header = () => {
   
   return (
     <header className="sticky top-0 z-50 w-full border-b bg-card/95 backdrop-blur supports-[backdrop-filter]:bg-card/60">
-      <div className="container flex h-16 items-center justify-between">
-        <Link to="/" className="flex items-center space-x-2">
-          <span className="text-xl font-semibold bg-gradient-maternal bg-clip-text text-transparent">
-            Maria Karolina Carvalho
-          </span>
+      <div className="container flex h-20 items-center justify-between">
+        <Link to="/" className="flex items-center">
+          <img 
+            src={logo} 
+            alt="Maria Karolina Carvalho - Advocacia e Consultoria Jurídica" 
+            className="h-12 w-auto"
+          />
         </Link>
         
         <nav className="hidden md:flex items-center space-x-6">
@@ -36,8 +39,8 @@ const Header = () => {
         </nav>
         
         <Button 
-          className="bg-primary hover:bg-primary/90 shadow-soft"
-          onClick={() => window.open('https://wa.me/5511999999999', '_blank')}
+          className="bg-brown hover:bg-brown-dark shadow-soft"
+          onClick={() => window.open('https://wa.me/558695600304?text=Olá, gostaria de conhecer mais sobre seus serviços jurídicos.', '_blank')}
         >
           <MessageCircle className="mr-2 h-4 w-4" />
           WhatsApp
