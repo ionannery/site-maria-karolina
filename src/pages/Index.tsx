@@ -4,6 +4,8 @@ import { Card } from "@/components/ui/card";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import mariaKarolinaCta from "@/assets/maria-karolina-cta.jpg";
+import fotoMkMaoCruzada from "@/assets/foto-mk-mao-cruzada.jpg";
+import foto01 from "@/assets/foto-01.jpg";
 
 const Index = () => {
   const handleWhatsAppClick = () => {
@@ -48,6 +50,11 @@ const Index = () => {
                   <div className="text-3xl font-bold text-primary">98%</div>
                   <div className="text-sm text-muted-foreground">Taxa de aprovação</div>
                 </div>
+                  <img 
+                    src={fotoMkMaoCruzada}
+                    alt="Dra. Maria Karolina Carvalho - Advogada Especialista"
+                    className="w-full h-auto"
+                  />
               </div>
             </div>
             
@@ -71,10 +78,10 @@ const Index = () => {
             <div className="relative">
               <div className="relative rounded-3xl overflow-hidden shadow-soft">
                 <img 
-                  src="https://mariakarolina.adv.br/assets/foto-01-BwdTvafP.jpg"
-                  alt="Mãe segurando bebê com carinho - Salário Maternidade"
-                  className="w-full h-auto"
-                />
+                    src={foto01}
+                    alt="Mãe segurando bebê com carinho - Salário Maternidade"
+                    className="w-full h-auto"
+                  />
               </div>
             </div>
             
