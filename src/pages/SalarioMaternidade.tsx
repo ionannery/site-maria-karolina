@@ -31,7 +31,7 @@ const SalarioMaternidade = () => {
         <div className="relative container mx-auto px-4 py-24 md:py-32">
           <div className="max-w-4xl mx-auto text-center space-y-6">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 leading-tight">
-              Mamãe, você tem direito a receber até R$ 6.000 pelo INSS — descubra agora como garantir o seu salário-maternidade.
+              Mamãe, você pode receber mais de R$6.000,00 do INSS. Descubra agora como garantir o seu salário maternidade!
             </h1>
             <p className="text-xl md:text-2xl text-gray-900 leading-relaxed">
               Já ajudei mais de 200 mamães em todo o Brasil a conquistarem esse benefício com segurança e tranquilidade. - Maria Karolina Carvalho, Advogada
