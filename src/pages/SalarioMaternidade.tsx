@@ -31,10 +31,10 @@ const SalarioMaternidade = () => {
         <div className="relative container mx-auto px-4 py-24 md:py-32">
           <div className="max-w-4xl mx-auto text-center space-y-6">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 leading-tight">
-              Seu amor merece um recomeço tranquilo. Garanta o seu salário-maternidade com a ajuda certa.
+              Mamãe, você tem direito a receber até R$ 6.000 pelo INSS — descubra agora como garantir o seu salário-maternidade.
             </h1>
             <p className="text-xl md:text-2xl text-gray-900 leading-relaxed">
-              Com apenas uma contribuição ao INSS, você pode ter direito ao salário-maternidade. A advogada Maria Karolina já ajudou mais de 200 mamães a conquistarem esse benefício em todo o Brasil.
+              Já ajudei mais de 200 mamães em todo o Brasil a conquistarem esse benefício com segurança e tranquilidade. - Maria Karolina Carvalho, Advogada
             </p>
             <Button 
               size="lg" 
@@ -74,12 +74,12 @@ const SalarioMaternidade = () => {
                   <strong className="text-foreground"> empatia e compreensão pela maternidade</strong>.
                 </p>
                 <p>
-                  Com mais de <strong className="text-foreground">200 casos de sucesso</strong>, Maria Karolina entende profundamente 
+                  Com mais de <strong className="text-foreground">Com mais de 200 casos de sucesso</strong>, Entendo profundamente 
                   as necessidades e desafios que as mamães enfrentam nesse momento tão importante.
                 </p>
                 <p>
-                  Seu atendimento é <strong className="text-foreground">100% online e humanizado</strong>, 
-                  permitindo que você cuide do que realmente importa enquanto ela cuida de garantir seus direitos.
+                  Atendimento <strong className="text-foreground">100% online e humanizado</strong>, 
+                  permitindo que você cuide do que é realmente importante enquanto eu cuido de garantir seus direitos.
                 </p>
               </div>
               
@@ -100,7 +100,7 @@ const SalarioMaternidade = () => {
         <div className="container mx-auto">
           <div className="text-center mb-12 max-w-3xl mx-auto">
             <h2 className="text-3xl md:text-4xl font-bold mb-4">
-              Por que fazer o processo com ajuda jurídica?
+              Por que fazer o processo com ajuda de um advogado especialista em salário maternidade?
             </h2>
             <p className="text-xl text-muted-foreground">
               Com a orientação certa, você transforma burocracia em tranquilidade para curtir o que realmente importa: o seu bebê.
@@ -153,7 +153,7 @@ const SalarioMaternidade = () => {
                 <AlertCircle className="h-8 w-8 text-destructive" />
               </div>
               <h2 className="text-3xl md:text-4xl font-bold mb-4">
-                3 Principais Erros de Quem Tenta Sozinha
+                Os principais erros de quem tenta solicitar o benefício sozinha
               </h2>
               <p className="text-xl text-muted-foreground">
                 Esses erros simples fazem muitas mamães perderem um benefício que é um direito garantido. 
@@ -204,7 +204,7 @@ const SalarioMaternidade = () => {
                     </div>
                   </div>
                   <div>
-                    <h3 className="font-semibold text-xl mb-2">Desistir após o primeiro indeferimento, sem recorrer corretamente</h3>
+                    <h3 className="font-semibold text-xl mb-2">Desistir após o primeiro indeferimento</h3>
                     <p className="text-muted-foreground">
                       Uma negativa inicial não significa que você não tem direito. Muitos casos são 
                       revertidos com um recurso bem fundamentado.
@@ -225,7 +225,7 @@ const SalarioMaternidade = () => {
               O que as mamães dizem
             </h2>
             <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-              Veja como a Dra. Maria Karolina transformou a vida de centenas de famílias
+              Veja como o meu trabalho tem transformado a vida de centenas de mamães em todo o Brasil.
             </p>
           </div>
           
@@ -310,7 +310,7 @@ const SalarioMaternidade = () => {
         <div className="relative container mx-auto">
           <div className="max-w-3xl mx-auto text-center space-y-8">
             <h2 className="text-4xl md:text-5xl font-bold leading-tight">
-              Você cuidou do seu bebê. Agora deixe que a Dra. Maria cuide do seu direito.
+              Enquanto você cuida do seu bebê, eu cuido o seu benefício.
             </h2>
             
             <p className="text-xl text-muted-foreground">
