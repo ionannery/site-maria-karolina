@@ -74,7 +74,7 @@ const SalarioMaternidade = () => {
                   <strong className="text-foreground"> empatia e compreensão pela maternidade</strong>.
                 </p>
                 <p>
-                  Com mais de <strong className="text-foreground">Com mais de 200 casos de sucesso</strong>, Entendo profundamente 
+                  Com mais de <strong className="text-foreground">Com mais de 200 casos de sucesso</strong>, entendo profundamente 
                   as necessidades e desafios que as mamães enfrentam nesse momento tão importante.
                 </p>
                 <p>
