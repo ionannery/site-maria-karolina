@@ -329,7 +329,6 @@ const SalarioMaternidade = () => {
                   onClick={handleCTAClick}
                 >
                   <div className="flex items-center justify-center gap-2 flex-wrap">
-                    <Heart className="h-4 w-4 sm:h-5 sm:w-5 flex-shrink-0" />
                     <span className="text-sm sm:text-base md:text-lg text-center leading-tight">
                       Descubra agora se você tem direito 💕
                     </span>
