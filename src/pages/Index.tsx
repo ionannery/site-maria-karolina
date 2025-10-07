@@ -34,12 +34,16 @@ const Index = () => {
               
               <Button 
                   size="lg" 
-                  className="bg-primary hover:bg-primary/90 shadow-soft text-sm sm:text-base md:text-lg px-4 sm:px-6 md:px-8 py-4 sm:py-5 md:py-6 w-full sm:w-auto"
+                  className="bg-primary hover:bg-primary/90 shadow-soft px-4 py-4 h-auto w-full sm:w-auto min-h-[3rem]"
                   onClick={handleWhatsAppClick}
                 >
-                  <MessageCircle className="mr-1 sm:mr-2 h-4 w-4 sm:h-5 sm:w-5" />
-                  <span className="text-sm sm:text-base md:text-lg">Fale comigo agora</span>
-              </Button>
+                  <div className="flex items-center justify-center gap-2 flex-wrap">
+                    <MessageCircle className="h-4 w-4 sm:h-5 sm:w-5 flex-shrink-0" />
+                    <span className="text-sm sm:text-base md:text-lg text-center leading-tight">
+                      Fale comigo agora
+                    </span>
+                  </div>
+                </Button>
               
               <div className="flex gap-8 pt-4">
                 <div>
@@ -259,11 +263,15 @@ const Index = () => {
               
               <Button 
                   size="lg" 
-                  className="bg-brown hover:bg-brown-dark shadow-medium text-sm sm:text-base md:text-lg px-4 sm:px-6 md:px-8 py-4 sm:py-5 md:py-6 w-full sm:w-auto"
+                  className="bg-brown hover:bg-brown-dark shadow-medium px-4 py-4 h-auto w-full sm:w-auto min-h-[3rem]"
                   onClick={handleWhatsAppClick}
                 >
-                  <MessageCircle className="mr-1 sm:mr-2 h-4 w-4 sm:h-5 sm:w-5" />
-                  <span className="text-sm sm:text-base md:text-lg">Falar no WhatsApp agora</span>
+                  <div className="flex items-center justify-center gap-2 flex-wrap">
+                    <MessageCircle className="h-4 w-4 sm:h-5 sm:w-5 flex-shrink-0" />
+                    <span className="text-sm sm:text-base md:text-lg text-center leading-tight">
+                      Falar no WhatsApp agora
+                    </span>
+                  </div>
                 </Button>
               <div className="flex flex-wrap gap-4 text-sm text-muted-foreground">
                 <span className="flex items-center gap-1">
