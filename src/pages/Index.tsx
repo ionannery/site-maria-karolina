@@ -33,12 +33,12 @@ const Index = () => {
               </blockquote>
               
               <Button 
-                size="lg" 
-                className="bg-primary hover:bg-primary/90 shadow-soft text-lg px-8"
-                onClick={handleWhatsAppClick}
-              >
-                <MessageCircle className="mr-2 h-5 w-5" />
-                Fale comigo agora
+                  size="lg" 
+                  className="bg-primary hover:bg-primary/90 shadow-soft text-sm sm:text-base md:text-lg px-4 sm:px-6 md:px-8 py-4 sm:py-5 md:py-6 w-full sm:w-auto"
+                  onClick={handleWhatsAppClick}
+                >
+                  <MessageCircle className="mr-1 sm:mr-2 h-4 w-4 sm:h-5 sm:w-5" />
+                  <span className="text-sm sm:text-base md:text-lg">Fale comigo agora</span>
               </Button>
               
               <div className="flex gap-8 pt-4">
@@ -258,13 +258,13 @@ const Index = () => {
               </div>
               
               <Button 
-                size="lg" 
-                className="bg-brown hover:bg-brown-dark shadow-medium text-lg px-8 w-full sm:w-auto"
-                onClick={handleWhatsAppClick}
-              >
-                <MessageCircle className="mr-2 h-5 w-5" />
-                Falar no WhatsApp agora
-              </Button>
+                  size="lg" 
+                  className="bg-brown hover:bg-brown-dark shadow-medium text-sm sm:text-base md:text-lg px-4 sm:px-6 md:px-8 py-4 sm:py-5 md:py-6 w-full sm:w-auto"
+                  onClick={handleWhatsAppClick}
+                >
+                  <MessageCircle className="mr-1 sm:mr-2 h-4 w-4 sm:h-5 sm:w-5" />
+                  <span className="text-sm sm:text-base md:text-lg">Falar no WhatsApp agora</span>
+                </Button>
               <div className="flex flex-wrap gap-4 text-sm text-muted-foreground">
                 <span className="flex items-center gap-1">
                   <CheckCircle className="h-4 w-4 text-green-600" /> Consulta gratuita
