@@ -20,7 +20,7 @@ const Index = () => {
       <section className="relative overflow-hidden bg-gradient-soft py-20 px-4">
         <div className="container mx-auto">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
-            <div className="space-y-6">
+            <div className="space-y-6 order-2 lg:order-1">
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight">
                 Dra. Maria Karolina Carvalho
               </h1>
@@ -53,7 +53,7 @@ const Index = () => {
               </div>
             </div>
             
-            <div className="relative">
+            <div className="relative order-1 lg:order-2">
               <div className="relative rounded-3xl overflow-hidden shadow-medium">
                 <img 
                     src={fotoMkMaoCruzada}
@@ -70,7 +70,7 @@ const Index = () => {
       <section className="py-20 px-4">
         <div className="container mx-auto">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
-            <div className="relative">
+            <div className="relative order-1">
               <div className="relative rounded-3xl overflow-hidden shadow-soft">
                 <img 
                     src={foto01}
@@ -80,7 +80,7 @@ const Index = () => {
               </div>
             </div>
             
-            <div className="space-y-6">
+            <div className="space-y-6 order-2">
               <h2 className="text-3xl md:text-4xl font-bold">Sobre Maria Karolina Carvalho</h2>
               <p className="text-muted-foreground leading-relaxed">
                 Advogada especialista em direito previdenciário e trabalhista com foco total no atendimento humanizado e na garantia dos direitos de cada cliente.
