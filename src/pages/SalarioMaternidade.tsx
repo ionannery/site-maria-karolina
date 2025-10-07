@@ -36,14 +36,14 @@ const SalarioMaternidade = () => {
             <p className="text-xl md:text-2xl text-gray-900 leading-relaxed">
               Já ajudei mais de 200 mamães em todo o Brasil a conquistarem esse benefício com segurança e tranquilidade. - Maria Karolina Carvalho, Advogada
             </p>
-            <Button 
-              size="lg" 
-              className="bg-brown hover:bg-brown-dark shadow-medium text-lg px-10 py-6 h-auto text-white"
-              onClick={handleCTAClick}
-            >
-              <Heart className="mr-2 h-5 w-5" />
-              Quero saber se tenho direito 💖
-            </Button>
+              <Button 
+                  size="lg" 
+                  className="bg-brown hover:bg-brown-dark shadow-medium text-sm sm:text-base md:text-lg px-4 sm:px-6 md:px-10 py-4 sm:py-5 md:py-6 h-auto text-white w-full sm:w-auto"
+                  onClick={handleCTAClick}
+                >
+                  <Heart className="mr-1 sm:mr-2 h-4 w-4 sm:h-5 sm:w-5" />
+                  <span className="text-sm sm:text-base md:text-lg">Quero saber se tenho direito 💖</span>
+              </Button>
           </div>
         </div>
       </section>
@@ -319,14 +319,14 @@ const SalarioMaternidade = () => {
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center pt-4">
-              <Button 
-                size="lg" 
-                className="bg-brown hover:bg-brown-dark shadow-medium text-lg px-10 py-6 h-auto text-white"
-                onClick={handleCTAClick}
-              >
-                <Heart className="mr-2 h-5 w-5" />
-                Descubra agora se você tem direito 💕
-              </Button>
+                <Button 
+                      size="lg" 
+                      className="bg-brown hover:bg-brown-dark shadow-medium text-sm sm:text-base md:text-lg px-4 sm:px-6 md:px-10 py-4 sm:py-5 md:py-6 h-auto text-white w-full"
+                      onClick={handleCTAClick}
+                  >
+                      <Heart className="mr-1 sm:mr-2 h-4 w-4 sm:h-5 sm:w-5" />
+                      <span className="text-sm sm:text-base md:text-lg">Descubra agora se você tem direito 💕</span>
+                </Button>
             </div>
             
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6 pt-8">
